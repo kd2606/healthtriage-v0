@@ -1,0 +1,13 @@
+name: healthtriage-v0
+version: "1.0.0"
+description: >
+  RL environment where an AI agent learns to triage
+  patients in rural Indian healthcare settings.
+author: krrish-hetansh
+tags: [healthcare, india, triage, real-world]
+observation_space: PatientObservation
+action_space: TriageAction
+tasks:
+  - basic_triage
+  - severity_assessment
+  - multi_condition_triage

@@ -1,0 +1,1082 @@
+[
+  {
+    "patient_id": "P001",
+    "task_id": "basic_triage",
+    "age": 25,
+    "gender": "female",
+    "symptoms": ["mild_headache", "runny_nose", "fatigue"],
+    "duration_days": 2,
+    "severity": 2.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.8,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 78,
+      "spo2_percent": 98
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P002",
+    "task_id": "basic_triage",
+    "age": 45,
+    "gender": "male",
+    "symptoms": ["chest_pain", "shortness_of_breath", "sweating"],
+    "duration_days": 0,
+    "severity": 9.0,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 160,
+      "pulse_rate": 110,
+      "spo2_percent": 91
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P003",
+    "task_id": "basic_triage",
+    "age": 32,
+    "gender": "female",
+    "symptoms": ["skin_rash", "joint_pain", "fever"],
+    "duration_days": 5,
+    "severity": 5.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.5,
+      "blood_pressure_systolic": 122,
+      "pulse_rate": 88,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P004",
+    "task_id": "basic_triage",
+    "age": 60,
+    "gender": "male",
+    "symptoms": ["persistent_cough", "weight_loss", "night_sweats"],
+    "duration_days": 30,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 38.2,
+      "blood_pressure_systolic": 130,
+      "pulse_rate": 92,
+      "spo2_percent": 95
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P005",
+    "task_id": "basic_triage",
+    "age": 8,
+    "gender": "male",
+    "symptoms": ["mild_fever", "sore_throat", "cough"],
+    "duration_days": 2,
+    "severity": 2.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.0,
+      "blood_pressure_systolic": 100,
+      "pulse_rate": 90,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P006",
+    "task_id": "basic_triage",
+    "age": 70,
+    "gender": "female",
+    "symptoms": ["sudden_confusion", "weakness_one_side", "slurred_speech"],
+    "duration_days": 0,
+    "severity": 9.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension", "diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 180,
+      "pulse_rate": 95,
+      "spo2_percent": 94
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P007",
+    "task_id": "basic_triage",
+    "age": 28,
+    "gender": "female",
+    "symptoms": ["nausea", "vomiting", "mild_stomach_pain"],
+    "duration_days": 1,
+    "severity": 3.0,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.5,
+      "blood_pressure_systolic": 115,
+      "pulse_rate": 80,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P008",
+    "task_id": "basic_triage",
+    "age": 55,
+    "gender": "male",
+    "symptoms": ["eye_redness", "blurred_vision", "eye_pain"],
+    "duration_days": 3,
+    "severity": 5.5,
+    "location": "rural",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 135,
+      "pulse_rate": 82,
+      "spo2_percent": 98
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P009",
+    "task_id": "basic_triage",
+    "age": 35,
+    "gender": "male",
+    "symptoms": ["high_fever", "severe_headache", "neck_stiffness"],
+    "duration_days": 1,
+    "severity": 9.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 39.8,
+      "blood_pressure_systolic": 140,
+      "pulse_rate": 115,
+      "spo2_percent": 96
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P010",
+    "task_id": "basic_triage",
+    "age": 22,
+    "gender": "female",
+    "symptoms": ["back_pain", "mild_fever", "burning_urination"],
+    "duration_days": 3,
+    "severity": 4.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.1,
+      "blood_pressure_systolic": 112,
+      "pulse_rate": 85,
+      "spo2_percent": 98
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P011",
+    "task_id": "basic_triage",
+    "age": 50,
+    "gender": "male",
+    "symptoms": ["mild_back_pain", "stiffness"],
+    "duration_days": 7,
+    "severity": 2.0,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 125,
+      "pulse_rate": 76,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P012",
+    "task_id": "basic_triage",
+    "age": 40,
+    "gender": "female",
+    "symptoms": ["abdominal_pain", "fever", "vomiting"],
+    "duration_days": 2,
+    "severity": 6.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.7,
+      "blood_pressure_systolic": 128,
+      "pulse_rate": 98,
+      "spo2_percent": 97
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P013",
+    "task_id": "basic_triage",
+    "age": 5,
+    "gender": "female",
+    "symptoms": ["high_fever", "seizure", "unconscious"],
+    "duration_days": 0,
+    "severity": 10.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 40.5,
+      "blood_pressure_systolic": 90,
+      "pulse_rate": 130,
+      "spo2_percent": 90
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P014",
+    "task_id": "basic_triage",
+    "age": 30,
+    "gender": "male",
+    "symptoms": ["sneezing", "watery_eyes", "itching"],
+    "duration_days": 10,
+    "severity": 1.5,
+    "location": "urban",
+    "previous_conditions": ["allergies"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 72,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P015",
+    "task_id": "basic_triage",
+    "age": 48,
+    "gender": "female",
+    "symptoms": ["breast_lump", "no_pain"],
+    "duration_days": 30,
+    "severity": 6.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 120,
+      "pulse_rate": 78,
+      "spo2_percent": 99
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P016",
+    "task_id": "basic_triage",
+    "age": 65,
+    "gender": "male",
+    "symptoms": ["breathlessness", "leg_swelling", "fatigue"],
+    "duration_days": 5,
+    "severity": 7.5,
+    "location": "rural",
+    "previous_conditions": ["heart_disease"],
+    "vitals": {
+      "temperature_celsius": 37.2,
+      "blood_pressure_systolic": 150,
+      "pulse_rate": 105,
+      "spo2_percent": 92
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P017",
+    "task_id": "basic_triage",
+    "age": 20,
+    "gender": "female",
+    "symptoms": ["mild_cramps", "irregular_periods"],
+    "duration_days": 14,
+    "severity": 3.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 110,
+      "pulse_rate": 74,
+      "spo2_percent": 99
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P018",
+    "task_id": "basic_triage",
+    "age": 38,
+    "gender": "male",
+    "symptoms": ["diarrhea", "dehydration", "weakness"],
+    "duration_days": 2,
+    "severity": 5.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.0,
+      "blood_pressure_systolic": 105,
+      "pulse_rate": 100,
+      "spo2_percent": 97
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P019",
+    "task_id": "basic_triage",
+    "age": 55,
+    "gender": "female",
+    "symptoms": ["chest_tightness", "sweating", "jaw_pain"],
+    "duration_days": 0,
+    "severity": 9.5,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 170,
+      "pulse_rate": 118,
+      "spo2_percent": 92
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P020",
+    "task_id": "basic_triage",
+    "age": 27,
+    "gender": "male",
+    "symptoms": ["ankle_sprain", "swelling", "mild_pain"],
+    "duration_days": 1,
+    "severity": 2.5,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 120,
+      "pulse_rate": 75,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P021",
+    "task_id": "severity_assessment",
+    "age": 62,
+    "gender": "male",
+    "symptoms": ["fever", "cough", "breathlessness"],
+    "duration_days": 4,
+    "severity": 7.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 39.2,
+      "blood_pressure_systolic": 145,
+      "pulse_rate": 108,
+      "spo2_percent": 93
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P022",
+    "task_id": "severity_assessment",
+    "age": 45,
+    "gender": "female",
+    "symptoms": ["headache", "blurred_vision", "nausea"],
+    "duration_days": 2,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.3,
+      "blood_pressure_systolic": 175,
+      "pulse_rate": 95,
+      "spo2_percent": 97
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P023",
+    "task_id": "severity_assessment",
+    "age": 33,
+    "gender": "male",
+    "symptoms": ["mild_fever", "body_ache", "fatigue"],
+    "duration_days": 3,
+    "severity": 3.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.2,
+      "blood_pressure_systolic": 122,
+      "pulse_rate": 88,
+      "spo2_percent": 98
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P024",
+    "task_id": "severity_assessment",
+    "age": 50,
+    "gender": "female",
+    "symptoms": ["chest_pain", "normal_vitals", "anxiety"],
+    "duration_days": 1,
+    "severity": 5.0,
+    "location": "urban",
+    "previous_conditions": ["anxiety_disorder"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 128,
+      "pulse_rate": 92,
+      "spo2_percent": 98
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P025",
+    "task_id": "severity_assessment",
+    "age": 72,
+    "gender": "male",
+    "symptoms": ["fall", "hip_pain", "unable_to_walk"],
+    "duration_days": 0,
+    "severity": 7.0,
+    "location": "rural",
+    "previous_conditions": ["osteoporosis"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 138,
+      "pulse_rate": 88,
+      "spo2_percent": 97
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P026",
+    "task_id": "severity_assessment",
+    "age": 29,
+    "gender": "female",
+    "symptoms": ["high_fever", "rash", "joint_pain"],
+    "duration_days": 5,
+    "severity": 6.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 39.5,
+      "blood_pressure_systolic": 115,
+      "pulse_rate": 102,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P027",
+    "task_id": "severity_assessment",
+    "age": 40,
+    "gender": "male",
+    "symptoms": ["yellowish_skin", "dark_urine", "fatigue"],
+    "duration_days": 7,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.8,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 84,
+      "spo2_percent": 98
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P028",
+    "task_id": "severity_assessment",
+    "age": 18,
+    "gender": "male",
+    "symptoms": ["mild_cold", "sneezing", "sore_throat"],
+    "duration_days": 2,
+    "severity": 1.5,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.5,
+      "blood_pressure_systolic": 115,
+      "pulse_rate": 76,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P029",
+    "task_id": "severity_assessment",
+    "age": 55,
+    "gender": "female",
+    "symptoms": ["abdominal_pain", "bloating", "weight_loss"],
+    "duration_days": 21,
+    "severity": 7.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.4,
+      "blood_pressure_systolic": 122,
+      "pulse_rate": 86,
+      "spo2_percent": 98
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P030",
+    "task_id": "severity_assessment",
+    "age": 35,
+    "gender": "male",
+    "symptoms": ["severe_abdominal_pain", "vomiting", "fever"],
+    "duration_days": 1,
+    "severity": 8.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 39.0,
+      "blood_pressure_systolic": 132,
+      "pulse_rate": 112,
+      "spo2_percent": 96
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P031",
+    "task_id": "severity_assessment",
+    "age": 44,
+    "gender": "female",
+    "symptoms": ["persistent_headache", "vision_changes"],
+    "duration_days": 10,
+    "severity": 5.5,
+    "location": "rural",
+    "previous_conditions": ["migraine"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 128,
+      "pulse_rate": 80,
+      "spo2_percent": 99
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P032",
+    "task_id": "severity_assessment",
+    "age": 26,
+    "gender": "female",
+    "symptoms": ["fever", "painful_urination", "lower_back_pain"],
+    "duration_days": 3,
+    "severity": 5.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.6,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 94,
+      "spo2_percent": 98
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P033",
+    "task_id": "severity_assessment",
+    "age": 60,
+    "gender": "male",
+    "symptoms": ["sudden_vision_loss", "eye_pain"],
+    "duration_days": 0,
+    "severity": 8.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 142,
+      "pulse_rate": 88,
+      "spo2_percent": 98
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P034",
+    "task_id": "severity_assessment",
+    "age": 31,
+    "gender": "male",
+    "symptoms": ["mild_diarrhea", "stomach_cramps"],
+    "duration_days": 1,
+    "severity": 2.5,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.3,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 78,
+      "spo2_percent": 99
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P035",
+    "task_id": "severity_assessment",
+    "age": 48,
+    "gender": "female",
+    "symptoms": ["irregular_heartbeat", "dizziness", "fatigue"],
+    "duration_days": 7,
+    "severity": 7.0,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 148,
+      "pulse_rate": 118,
+      "spo2_percent": 95
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P036",
+    "task_id": "severity_assessment",
+    "age": 52,
+    "gender": "male",
+    "symptoms": ["cough_with_blood", "weight_loss", "night_sweats"],
+    "duration_days": 20,
+    "severity": 8.0,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.3,
+      "blood_pressure_systolic": 125,
+      "pulse_rate": 96,
+      "spo2_percent": 94
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P037",
+    "task_id": "severity_assessment",
+    "age": 14,
+    "gender": "female",
+    "symptoms": ["high_fever", "vomiting", "dehydration"],
+    "duration_days": 2,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 39.8,
+      "blood_pressure_systolic": 100,
+      "pulse_rate": 115,
+      "spo2_percent": 96
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P038",
+    "task_id": "severity_assessment",
+    "age": 67,
+    "gender": "male",
+    "symptoms": ["sudden_severe_headache", "vomiting", "stiff_neck"],
+    "duration_days": 0,
+    "severity": 9.8,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 38.0,
+      "blood_pressure_systolic": 185,
+      "pulse_rate": 105,
+      "spo2_percent": 95
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P039",
+    "task_id": "severity_assessment",
+    "age": 23,
+    "gender": "male",
+    "symptoms": ["acne", "oily_skin"],
+    "duration_days": 60,
+    "severity": 1.0,
+    "location": "urban",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 118,
+      "pulse_rate": 70,
+      "spo2_percent": 99
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P040",
+    "task_id": "severity_assessment",
+    "age": 42,
+    "gender": "female",
+    "symptoms": ["severe_toothache", "facial_swelling", "fever"],
+    "duration_days": 3,
+    "severity": 5.5,
+    "location": "rural",
+    "previous_conditions": [],
+    "vitals": {
+      "temperature_celsius": 38.4,
+      "blood_pressure_systolic": 124,
+      "pulse_rate": 90,
+      "spo2_percent": 98
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P041",
+    "task_id": "multi_condition_triage",
+    "age": 78,
+    "gender": "male",
+    "symptoms": ["confusion", "fever", "reduced_urine"],
+    "duration_days": 2,
+    "severity": 8.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "kidney_disease", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 38.8,
+      "blood_pressure_systolic": 155,
+      "pulse_rate": 108,
+      "spo2_percent": 94
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P042",
+    "task_id": "multi_condition_triage",
+    "age": 75,
+    "gender": "female",
+    "symptoms": ["joint_pain", "morning_stiffness", "fatigue"],
+    "duration_days": 60,
+    "severity": 5.5,
+    "location": "rural",
+    "previous_conditions": ["arthritis", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.2,
+      "blood_pressure_systolic": 145,
+      "pulse_rate": 82,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P043",
+    "task_id": "multi_condition_triage",
+    "age": 80,
+    "gender": "male",
+    "symptoms": ["mild_cough", "runny_nose"],
+    "duration_days": 3,
+    "severity": 2.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.6,
+      "blood_pressure_systolic": 138,
+      "pulse_rate": 80,
+      "spo2_percent": 97
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P044",
+    "task_id": "multi_condition_triage",
+    "age": 70,
+    "gender": "female",
+    "symptoms": ["breathlessness", "chest_pain", "sweating"],
+    "duration_days": 0,
+    "severity": 9.5,
+    "location": "rural",
+    "previous_conditions": ["heart_disease", "diabetes", "obesity"],
+    "vitals": {
+      "temperature_celsius": 37.2,
+      "blood_pressure_systolic": 165,
+      "pulse_rate": 122,
+      "spo2_percent": 89
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P045",
+    "task_id": "multi_condition_triage",
+    "age": 68,
+    "gender": "male",
+    "symptoms": ["blood_in_stool", "weight_loss", "fatigue"],
+    "duration_days": 30,
+    "severity": 7.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.3,
+      "blood_pressure_systolic": 132,
+      "pulse_rate": 88,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P046",
+    "task_id": "multi_condition_triage",
+    "age": 82,
+    "gender": "female",
+    "symptoms": ["fall", "wrist_pain", "swelling"],
+    "duration_days": 0,
+    "severity": 6.0,
+    "location": "rural",
+    "previous_conditions": ["osteoporosis", "diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 135,
+      "pulse_rate": 82,
+      "spo2_percent": 97
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P047",
+    "task_id": "multi_condition_triage",
+    "age": 73,
+    "gender": "male",
+    "symptoms": ["poor_appetite", "weight_loss", "fatigue"],
+    "duration_days": 45,
+    "severity": 6.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 130,
+      "pulse_rate": 78,
+      "spo2_percent": 96
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P048",
+    "task_id": "multi_condition_triage",
+    "age": 76,
+    "gender": "female",
+    "symptoms": ["mild_headache", "dizziness"],
+    "duration_days": 1,
+    "severity": 3.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 148,
+      "pulse_rate": 80,
+      "spo2_percent": 97
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P049",
+    "task_id": "multi_condition_triage",
+    "age": 69,
+    "gender": "male",
+    "symptoms": ["high_blood_sugar", "excessive_thirst", "frequent_urination"],
+    "duration_days": 7,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.2,
+      "blood_pressure_systolic": 138,
+      "pulse_rate": 85,
+      "spo2_percent": 97
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P050",
+    "task_id": "multi_condition_triage",
+    "age": 85,
+    "gender": "female",
+    "symptoms": ["sudden_paralysis", "face_drooping", "speech_difficulty"],
+    "duration_days": 0,
+    "severity": 10.0,
+    "location": "rural",
+    "previous_conditions": ["hypertension", "heart_disease", "diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.1,
+      "blood_pressure_systolic": 190,
+      "pulse_rate": 98,
+      "spo2_percent": 93
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P051",
+    "task_id": "multi_condition_triage",
+    "age": 71,
+    "gender": "male",
+    "symptoms": ["chronic_knee_pain", "reduced_mobility"],
+    "duration_days": 90,
+    "severity": 4.0,
+    "location": "rural",
+    "previous_conditions": ["arthritis", "diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 132,
+      "pulse_rate": 76,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P052",
+    "task_id": "multi_condition_triage",
+    "age": 66,
+    "gender": "female",
+    "symptoms": ["cough", "mild_fever", "fatigue"],
+    "duration_days": 5,
+    "severity": 4.0,
+    "location": "rural",
+    "previous_conditions": ["hypertension", "asthma"],
+    "vitals": {
+      "temperature_celsius": 38.0,
+      "blood_pressure_systolic": 140,
+      "pulse_rate": 90,
+      "spo2_percent": 95
+    },
+    "correct_action": "clinic_visit"
+  },
+  {
+    "patient_id": "P053",
+    "task_id": "multi_condition_triage",
+    "age": 79,
+    "gender": "male",
+    "symptoms": ["severe_chest_pain", "cold_sweat", "nausea"],
+    "duration_days": 0,
+    "severity": 9.8,
+    "location": "rural",
+    "previous_conditions": ["heart_disease", "diabetes", "hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 172,
+      "pulse_rate": 125,
+      "spo2_percent": 90
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P054",
+    "task_id": "multi_condition_triage",
+    "age": 74,
+    "gender": "female",
+    "symptoms": ["memory_loss", "confusion", "behavioral_change"],
+    "duration_days": 180,
+    "severity": 6.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 138,
+      "pulse_rate": 78,
+      "spo2_percent": 97
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P055",
+    "task_id": "multi_condition_triage",
+    "age": 77,
+    "gender": "male",
+    "symptoms": ["mild_indigestion", "bloating"],
+    "duration_days": 3,
+    "severity": 2.0,
+    "location": "urban",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 130,
+      "pulse_rate": 74,
+      "spo2_percent": 98
+    },
+    "correct_action": "home_care"
+  },
+  {
+    "patient_id": "P056",
+    "task_id": "multi_condition_triage",
+    "age": 72,
+    "gender": "female",
+    "symptoms": ["swollen_leg", "redness", "warmth", "pain"],
+    "duration_days": 2,
+    "severity": 7.5,
+    "location": "rural",
+    "previous_conditions": ["heart_disease", "obesity"],
+    "vitals": {
+      "temperature_celsius": 38.0,
+      "blood_pressure_systolic": 148,
+      "pulse_rate": 98,
+      "spo2_percent": 95
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P057",
+    "task_id": "multi_condition_triage",
+    "age": 69,
+    "gender": "male",
+    "symptoms": ["tremors", "slow_movement", "balance_issues"],
+    "duration_days": 90,
+    "severity": 5.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension"],
+    "vitals": {
+      "temperature_celsius": 37.0,
+      "blood_pressure_systolic": 132,
+      "pulse_rate": 72,
+      "spo2_percent": 98
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P058",
+    "task_id": "multi_condition_triage",
+    "age": 83,
+    "gender": "female",
+    "symptoms": ["high_fever", "chills", "low_blood_pressure"],
+    "duration_days": 1,
+    "severity": 9.0,
+    "location": "rural",
+    "previous_conditions": ["diabetes", "kidney_disease"],
+    "vitals": {
+      "temperature_celsius": 40.1,
+      "blood_pressure_systolic": 88,
+      "pulse_rate": 128,
+      "spo2_percent": 92
+    },
+    "correct_action": "emergency"
+  },
+  {
+    "patient_id": "P059",
+    "task_id": "multi_condition_triage",
+    "age": 70,
+    "gender": "male",
+    "symptoms": ["dry_skin", "hair_loss", "fatigue", "weight_gain"],
+    "duration_days": 60,
+    "severity": 4.5,
+    "location": "rural",
+    "previous_conditions": ["diabetes"],
+    "vitals": {
+      "temperature_celsius": 36.8,
+      "blood_pressure_systolic": 128,
+      "pulse_rate": 62,
+      "spo2_percent": 98
+    },
+    "correct_action": "specialist"
+  },
+  {
+    "patient_id": "P060",
+    "task_id": "multi_condition_triage",
+    "age": 76,
+    "gender": "female",
+    "symptoms": ["mild_fever", "cough", "runny_nose"],
+    "duration_days": 2,
+    "severity": 2.5,
+    "location": "rural",
+    "previous_conditions": ["hypertension", "diabetes"],
+    "vitals": {
+      "temperature_celsius": 37.9,
+      "blood_pressure_systolic": 140,
+      "pulse_rate": 82,
+      "spo2_percent": 97
+    },
+    "correct_action": "home_care"
+  }
+]
