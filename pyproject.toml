@@ -11,6 +11,9 @@ dependencies = [
     "requests",
 ]
 
+[project.scripts]
+server = "server:app"
+
 [tool.openenv]
 name = "healthtriage-v0"
 version = "1.0.0"
