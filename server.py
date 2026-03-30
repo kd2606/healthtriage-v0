@@ -57,7 +57,7 @@ def grader(task_id: str = "basic_triage"):
 @app.post("/baseline")
 def baseline():
     result = subprocess.run(
-        ["python", "baseline.py"],
+        ["python", "inference.py"],
         capture_output=True, text=True
     )
     return {"output": result.stdout, "error": result.stderr}

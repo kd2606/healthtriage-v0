@@ -1,12 +1,15 @@
 """
-Baseline inference script for HealthTriage-v0
-Run: python baseline.py
+Inference script for HealthTriage-v0
+Run: python inference.py
 """
 import os
 import requests
 import json
-import random
 
+# Required env variables for submission
+API_BASE_URL = os.getenv("API_BASE_URL", "https://api.openai.com/v1")
+MODEL_NAME = os.getenv("MODEL_NAME", "gpt-4o-mini")
+HF_TOKEN = os.getenv("HF_TOKEN", "")
 BASE_URL = os.getenv("ENV_URL", "http://localhost:8000")
 
 TASKS = ["basic_triage", "severity_assessment", "multi_condition_triage"]
@@ -14,7 +17,7 @@ TASKS = ["basic_triage", "severity_assessment", "multi_condition_triage"]
 def simple_agent(obs: dict) -> str:
     """
     Rule-based baseline agent.
-    No LLM needed — uses severity score + vitals.
+    Uses severity score + vitals to make triage decision.
     """
     severity = obs.get("severity_score", 0)
     spo2 = obs.get("vitals", {}).get("spo2_percent", 99)
@@ -64,7 +67,7 @@ def run_episode(task_id: str, episodes: int = 10) -> float:
             action = {"action": action_str}
 
             # Step
-            step_resp = requests.post(
+            requests.post(
                 f"{BASE_URL}/step",
                 json=action,
                 params={"task_id": task_id},
@@ -89,7 +92,11 @@ def run_episode(task_id: str, episodes: int = 10) -> float:
 
 if __name__ == "__main__":
     print("=" * 45)
-    print("  HealthTriage-v0 Baseline Scores")
+    print("  HealthTriage-v0 Inference Scores")
+    print("=" * 45)
+    print(f"  API_BASE_URL: {API_BASE_URL}")
+    print(f"  MODEL_NAME: {MODEL_NAME}")
+    print(f"  ENV_URL: {BASE_URL}")
     print("=" * 45)
 
     all_scores = {}
