@@ -12,9 +12,9 @@ dependencies = [
 ]
 
 [project.scripts]
-server = "server:app"
+server = "server.app:main"
 
 [tool.openenv]
 name = "healthtriage-v0"
 version = "1.0.0"
-entry_point = "server:app"
+entry_point = "server.app:main"
